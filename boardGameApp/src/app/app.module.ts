@@ -10,6 +10,7 @@ import { GameDetailControlsComponent } from './components/game-detail-controls/g
 import { UserSelectionsComponent } from './components/user-selections/user-selections.component';
 import { MaterialModule } from './modules/material/material.module';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
     GameSearchComponent,
     GameDetailsComponent,
     GameDetailControlsComponent,
-    UserSelectionsComponent
+    UserSelectionsComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,6 +27,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserAnimationsModule,
     MaterialModule,
     HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
