@@ -48,3 +48,7 @@
   font-size: .75em;
   line-height: normal;
 }
+.mat-card-actions {
+  display: flex;
+  justify-content: space-around;
+}
